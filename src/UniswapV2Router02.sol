@@ -1,12 +1,12 @@
 pragma solidity ^0.8.21;
 
 import '@core/interfaces/IUniswapV2Factory.sol';
+import '@core/interfaces/IERC20.sol';
 import '@uniswap/TransferHelper.sol';
 
 import './interfaces/IUniswapV2Router02.sol';
 import './libraries/UniswapV2Library.sol';
 import './libraries/SafeMath.sol';
-import './interfaces/IERC20.sol';
 import './interfaces/IWETH.sol';
 
 contract UniswapV2Router02 is IUniswapV2Router02 {
