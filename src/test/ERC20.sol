@@ -1,6 +1,6 @@
 pragma solidity ^0.8.21;
 
-import '../libraries/SafeMath.sol';
+import '@core/libraries/SafeMath.sol';
 
 contract ERC20 {
     using SafeMath for uint;

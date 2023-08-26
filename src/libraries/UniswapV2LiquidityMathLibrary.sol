@@ -2,10 +2,10 @@ pragma solidity ^0.8.21;
 
 import '@core/interfaces/IUniswapV2Pair.sol';
 import '@core/interfaces/IUniswapV2Factory.sol';
+import '@core/libraries/SafeMath.sol';
 import '@uniswap/Babylonian.sol';
 import '@uniswap/FullMath.sol';
 
-import './SafeMath.sol';
 import './UniswapV2Library.sol';
 
 // library containing some math for dealing with the liquidity shares of a pair, e.g. computing their exact value

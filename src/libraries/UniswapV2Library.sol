@@ -1,8 +1,7 @@
 pragma solidity ^0.8.21;
 
 import '@core/interfaces/IUniswapV2Pair.sol';
-
-import "./SafeMath.sol";
+import '@core/libraries/SafeMath.sol';
 
 library UniswapV2Library {
     using SafeMath for uint;
